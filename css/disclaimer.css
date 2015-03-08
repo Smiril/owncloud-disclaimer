@@ -1,0 +1,40 @@
+p.infield.disclaimer {
+background: none repeat scroll 0% 0% #FFF;
+font-size: 14px;
+margin-top: 0px;
+margin-left: 5px;
+margin-right: 8px;
+padding: 11px 10px 9px;
+-moz-appearance: textfield;
+box-sizing: content-box;
+color: #555;
+cursor: text;
+font-family: inherit;
+border-bottom-color: #555;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: #555;
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: #555;
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: #555;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px inset;
+box-sizing: content-box;
+}
+
+p.infield.disclaimer img{
+	float: right;
+}

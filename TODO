@@ -1,0 +1,5 @@
+- Webdav and remote.php/* access control are not working at the moment 
+- Register in database when the user accepted
+- Configurable settings
+- Error template instead of Exception
+- l10n
