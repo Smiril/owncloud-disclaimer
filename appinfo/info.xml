@@ -5,8 +5,8 @@
     <description>This app adds a disclaimer control to the login process and logs it.</description>
     <licence>AGPL</licence>
     <author>Mikel Olasagasti Uranga</author>
-    <version>0.1.0</version>
-    <requiremin>8.0.0</requiremin>
+    <version>0.1.1</version>
+    <requiremin>7.0.0</requiremin>
     <types>
 	<type>prelogin</type>
     </types>
