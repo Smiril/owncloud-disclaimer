@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$('#password').parent().after(
 		'<p class="infield disclaimer">'+
 		'<input type="checkbox" id="disclaimer" placeholder="Disclaimer" value="" name="disclaimer"'+ 'original-title="" autocomplete="off" required />'+
-		'<a href="/apps/disclaimer/pdf/disclaimer.pdf "><img src="/core/img/filetypes/application-pdf.svg" /></a> Acepto los terminos y condiciones'+
+		'<a href="apps/disclaimer/pdf/disclaimer.pdf "><img src="core/img/filetypes/application-pdf.svg" /></a> I have read and agree to the Terms & Conditions.'+
 		'</p>'
 	);
 
