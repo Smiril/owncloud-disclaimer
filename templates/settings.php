@@ -1,7 +1,7 @@
-<?php use \OCA\disclaimer\disclaimer; ?>
+<?php //use \OCA\disclaimer\disclaimer; ?>
 <form id="disclaimer">
 	<div class="section">
-		<h2><?php p($l->t('Disclaimer Validation'));?></h2>
+		<h2><?php p($l->t('Disclaimer'));?></h2>
 		<p><?php p($l->t('Current disclaimer path:')); ?> <a href="/apps/disclaimer/pdf/disclaimer.pdf"><?php echo realpath(dirname(__DIR__));?>/pdf/disclaimer.pdf</a></p>
 		
 		<?php if(!is_file(realpath(dirname(__DIR__))."/pdf/disclaimer.pdf")){?>

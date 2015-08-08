@@ -1,0 +1,20 @@
+OC.L10N.register(
+"disclaimer",
+{
+    "Disclaimer":
+    "Avís legal",
+	
+	"Current disclaimer path:":
+	"Ruta del avís legal:",
+	
+	"Please, add a disclaimer file!":
+	"Si us plau, afegiu un fitxer d'avís legal!",
+	
+	"Please, change the default disclaimer file!":
+	"Si us plau, canvieu el fitxer d'avís legal per defecte!",
+	
+	"I have read and agree to the Terms & Conditions.":
+	"He llegit i accepto els termes i condicions."
+
+},
+"nplurals=2; plural=(n != 1);");
