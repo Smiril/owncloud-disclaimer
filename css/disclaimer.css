@@ -3,7 +3,7 @@ background: none repeat scroll 0% 0% #FFF;
 font-size: 14px;
 margin-top: 0px;
 margin-left: 5px;
-margin-right: 8px;
+margin-right: 6px;
 padding: 11px 10px 9px;
 -moz-appearance: textfield;
 box-sizing: content-box;
@@ -32,7 +32,7 @@ border-top-right-radius: 0px;
 border-top-style: none;
 border-top-width: 0px;
 box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px inset;
-box-sizing: content-box;
+box-sizing: border-box;
 }
 
 p.infield.disclaimer img{
