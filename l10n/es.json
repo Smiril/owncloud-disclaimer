@@ -3,7 +3,10 @@
     "%s no existe",
 	
 	"Disclaimer":
-    "Aviso legal",
+    	"Aviso legal",
+	
+	"File:":
+    	"Aviso:",
 	
 	"Current disclaimer path:":
 	"Ruta del aviso legal:",
