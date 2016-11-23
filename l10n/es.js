@@ -4,6 +4,9 @@ OC.L10N.register(
     "Disclaimer":
     "Aviso legal",
 	
+	"File:":
+    	"Aviso:",
+	
 	"Current disclaimer path:":
 	"Ruta del aviso legal:",
 	
