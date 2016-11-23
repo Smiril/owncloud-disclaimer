@@ -3,6 +3,9 @@ OC.L10N.register(
 {
     "Disclaimer":
     "Avís legal",
+		
+	"File:":
+    	"Avis:",
 	
 	"Current disclaimer path:":
 	"Ruta del avís legal:",
