@@ -3,6 +3,8 @@ OC.L10N.register(
 {
 "Disclaimer":
 "Informativa",
+"File:":
+"File:",
 "Current disclaimer path:":
 "Percorso attuale dell'informativa:",
 "Please, add a disclaimer file!":
