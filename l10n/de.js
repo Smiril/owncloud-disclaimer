@@ -4,6 +4,9 @@ OC.L10N.register(
     "Disclaimer":
     "Disclaimer",
 	
+	"File:":
+    	"Datei:",
+	
 	"Current disclaimer path:":
 	"Pfad zur Disclaimer Datei:",
 	
