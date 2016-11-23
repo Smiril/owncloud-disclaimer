@@ -1,7 +1,10 @@
 { "translations": {
 	
 	"Disclaimer":
-    "Lege oharra",
+   	"Lege oharra",
+	
+	"File:":
+    	"Lege:",
 	
 	"Current disclaimer path:":
 	"Lege oharraren kokapena:",
