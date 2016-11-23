@@ -4,6 +4,9 @@ OC.L10N.register(
     "Disclaimer":
     "Lege oharra",
 	
+	"File:":
+    	"Lege:",
+	
 	"Current disclaimer path:":
 	"Lege oharraren kokapena:",
 	
