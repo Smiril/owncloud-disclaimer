@@ -15,3 +15,10 @@ INSTALLATION
 - Modify the disclaimer.pdf with you own file.
 - Navigate to the 'Apps' page in Admin.
 - Click on 'disclaimer' in the application list. Then click the 'Enable' button.
+
+- Note: if NOT Installed OwnCloud in root dir like /srv/www/htdocs/ 
+        must add the folder "/owncloud" to all lines contains "/apps/disclaimer/*/"
+        in script!
+        
+        like: "/owncloud/apps/disclaimer/*/*.*"
+        
