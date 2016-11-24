@@ -6,7 +6,7 @@
 
                 <?php if(is_file(realpath(dirname(__DIR__))."/pdf/disclaimer.pdf")){?>
                 <span class="connectionwarning">
-                <a href="/apps/disclaimer/templates/unlink.php?name=disclaimer.pdf" target="_blank">Delete Disclaimer!</a>
+                <a href="/apps/disclaimer/templates/unlink.php?name=disclaimer.pdf">Delete Disclaimer!</a>
                 </span>
                 <?php } ?>
 
