@@ -16,7 +16,7 @@
                 <?php p($l->t("Please, add a disclaimer file!"));?>
                 <?php
                 $txt =' <form id="disclaimer1" action="/apps/disclaimer/templates/upload.php" enctype="multipart/form-data" method="POST">
-                        <p><label>File:</label><input name="protocoll" type="file" size="46"></p>
+                        <p><label><?php p($l->t('File:)); ?></label><input name="protocoll" type="file" size="46"></p>
                         <p><input type="submit" value="submit"></p></form>';
                 echo $txt;
                 ?>
@@ -29,7 +29,7 @@
                 <?php p($l->t("Please, change the default disclaimer file!"));?>
                 <?php
                 $txt =' <form id="disclaimer1" action="/apps/disclaimer/templates/upload.php" enctype="multipart/form-data" method="POST">
-                        <p><label>File:</label><input name="protocoll" type="file" size="46"></p>
+                        <p><label><?php p($l->t('File:)); ?></label><input name="protocoll" type="file" size="46"></p>
                         <p><input type="submit" value="submit"></p></form>';
                 echo $txt;
                 ?>
