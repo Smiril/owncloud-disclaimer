@@ -3,7 +3,7 @@
 
 * First release
 
-2016-11-23 disclaimer 0.2.1
+2016-11-23 disclaimer 0.2.2
 =========================
 
 * Development status:  in upgrade
