@@ -5,7 +5,9 @@
                         <p><?php p($l->t('Current disclaimer path:')); ?> <a href="/apps/disclaimer/pdf/disclaimer.pdf" target="_blank"><?php echo realpath(dirname(__DIR__));?>/pdf/disclaimer.pdf</a></p>
                         <?php if(is_file(realpath(dirname(__DIR__))."/pdf/disclaimer.pdf")){?>
                         <span class="connectionwarning">
-                        <a href="/apps/disclaimer/templates/unlink.php?name=disclaimer.pdf">Delete Disclaimer!</a>
+                        <form id="disclaimer0" action="/apps/disclaimer/templates/unlink.php" method="POST">
+                        <p><input type="hidden" name="name" value="disclaimer.pdf"></p>
+                        <p><input type="submit" value="Delete Disclaimer"></p></form>
                         </span>
                         <?php } ?>
 
