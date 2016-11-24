@@ -11,5 +11,5 @@
 * update l10n "*" with entry "File:"
 * add img "application-pdf.png"
 * add templates "unlink.php" and "upload.php"
-* update "settings.php"
+* update templates "settings.php"
 
