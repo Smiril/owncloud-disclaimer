@@ -7,6 +7,8 @@
  *
  * @author Mikel Olasagasti Uranga <mikel@olasagasti.info>
  * @copyright Mikel Olasagasti Uranga 2015
+ * @author Smiril https://github.com/Smiril/
+ * @copyright Smiril 2016
  */
 
 
