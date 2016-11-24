@@ -1,7 +1,24 @@
 <?php //use \OCA\disclaimer\disclaimer; ?>
-<form id="disclaimer" action="<?php $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data" method="POST">
+<h2><?php p($l->t('Disclaimer'));?></h2>
+<?php         if(isset($_POST['disclaimer'])) {
+                if(isset($_POST['protocoll'])) {
+                        p($l->t("File transmission Success!"));
+                                if(rename($_POST['protocoll']['tmp_name'], realpath(dirname(__DIR__)).'/pdf/disclaimer.pdfi')){
+                                echo "<br>";
+                                p($l->t("Upload Success"));
+                                }
+                                else{
+                                        echo "<br>";
+                                        p($l->t("Error on Upload"));
+                                }
+                        }
+                        else {
+                                p($l->t("File transmission Failed!"));
+                        }
+                }
+?>
+<form id="disclaimer" action="#disclaimer" method="POST">
         <div class="section">
-                <h2><?php p($l->t('Disclaimer'));?></h2>
                 <p><?php p($l->t('Current disclaimer path:')); ?> <a href="/apps/disclaimer/pdf/disclaimer.pdf" target="_blank"><?php echo realpath(dirname(__DIR__));?>/pdf/disclaimer.pdf</a></p>
 
                 <?php if(is_file(realpath(dirname(__DIR__))."/pdf/disclaimer.pdf")){?>
@@ -25,27 +42,10 @@
         <?php } ?>
         </div>
 <?php
-                $txt =' <label>File:</label><input name="protocoll" type="file" size="46" /><br>
-                        <input type="submit" value="submit" />';
-        if(isset($_POST['disclaimer'])) {
-                if(isset($_POST['protocoll'])) {
-                        p($l->t("File transmission Success!"));
-                                if(rename($_FILES['protocoll']['tmp_name'], realpath(dirname(__DIR__)).'/pdf/disclaimer.pdfi') == 0){
-                                echo "<br>";
-                                p($l->t("Upload Success"));
-                                }
-                                else{
-                                        echo "<br>";
-                                        p($l->t("Error on Upload"));
-                                }
-                        }
-                        else {
-                                p($l->t("File transmission Failed!"));
-                        }
-                }
-                else
-                {
+                $txt =' <p><label>File:</label><input name="protocoll" type="file" size="46" /></p>
+                        <p><input type="submit" value="submit" /></p>';
                 echo $txt;
-                }
 ?>
+</form>
+
 </form>
